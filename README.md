@@ -46,6 +46,8 @@ Key highlights include dynamic scaling, efficient management of multiple turtle 
 ## Sample Output
   The application opens a window displaying multiple turtles of varying sizes and positions, each rendered with a detailed shell pattern and facial features. Overlapping turtles are automatically avoided.
 
+  ![Screenshot 2025-05-23 001528](https://github.com/user-attachments/assets/287057f4-7ea9-4a73-aad4-e02228f5bd4b)
+
 ## Future Improvements
 
 1. Add animation support for turtle movement
