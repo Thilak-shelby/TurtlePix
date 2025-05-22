@@ -28,7 +28,7 @@ Key highlights include dynamic scaling, efficient management of multiple turtle 
     ```bash 
    javac drawingTool/*.java
 
-4. Run the main class to launch the GUI (replace with your main class name):
+4. Run the main class to launch the GUI:
     ```bash  
    java drawingTool.TestDrawingTool
 
