@@ -21,12 +21,15 @@ Key highlights include dynamic scaling, efficient management of multiple turtle 
 ## How to Run
 
 1. Clone the repository:  
+   ```bash
    git clone https://github.com/yourusername/TurtlePix.git
 
-2. Compile all Java files:  
+2. Compile all Java files:
+    ```bash 
    javac drawingTool/*.java
 
-3. Run the main class to launch the GUI (replace with your main class name):  
+4. Run the main class to launch the GUI (replace with your main class name):
+    ```bash  
    java drawingTool.TestDrawingTool
 
 
