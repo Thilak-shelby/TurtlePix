@@ -1,23 +1,49 @@
-Overview: 
+# TurtlePix
 
-TurtlePix is a Java program that draws turtles using clean, modular, and reusable code. Each turtle is made up of parts like the body, head, legs, tail, and facial features. The project shows how to use Object-Oriented Programming to build complex shapes from simple components. 
+## Overview
 
-Features:
+TurtlePix is a Java application that uses Object-Oriented Programming principles to model and render turtles with detailed anatomical parts. The project demonstrates modular design by composing turtles from components like body, head, legs, tail, and facial features.
 
-1. Modular Design: The turtle is built from different classes for each part, making the code easy to maintain and extend.
-2. Dynamic Scaling: Turtles can be drawn at different sizes without losing quality or details.
-3. Collision Detection: The program checks if turtles overlap and avoids drawing overlapping ones for a clear display.
-4. Efficient Management: Uses lists to handle many turtles and their positions smoothly.
+Key highlights include dynamic scaling, efficient management of multiple turtle instances, and collision detection to avoid overlapping drawings, all rendered smoothly using Java Swing and AWT.
 
-Design Principles:
+---
 
-Each class focuses on one part of the turtle or one task.
-Uses composition to build the turtle from smaller parts.
-Demonstrates encapsulation, inheritance, and polymorphism through clean class relationships.
+## Features
 
-How to Run:
+- Modular classes representing turtle anatomy for clean, maintainable code  
+- Dynamic scaling to render turtles at different sizes without distortion  
+- Collision detection using bounding rectangles to prevent overlap  
+- Efficient handling of multiple turtles via ArrayLists  
+- Smooth rendering with anti-aliasing for polished visuals  
 
-Clone the repository.
-Compile all Java files.
-Run the main class (TestDrawingTool or equivalent) to see the turtles on screen.
+---
 
+## How to Run
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/yourusername/TurtlePix.git
+2. Compile all Java files:
+   javac drawingTool/*.java
+3. Run the main class to launch the GUI:
+   java drawingTool.TestDrawingTool
+
+## Code Structure
+
+- 'Turtle.java': Main class modeling a turtle, implements bounding and drawing logic  
+- 'Body.java': Models the turtle’s body parts including shell, legs, and tail  
+- 'Head.java': Models the turtle’s head and facial features (eyes, pupils, mouth, nose)  
+- 'Pattern.java': Generates the shell’s hexagonal pattern clipped inside an ellipse  
+- 'Drawing.java': Utility class managing the graphics context  
+- 'Scene.java': Manages multiple turtle instances and their rendering  
+- Utility classes like 'RandomNumber.java' for randomization  
+
+## Sample Output
+  The application opens a window displaying multiple turtles of varying sizes and positions, each rendered with a detailed shell pattern and facial features. Overlapping turtles are automatically avoided.
+
+## Future Improvements
+
+1. Add animation support for turtle movement
+2. Allow user interaction to add, move, or resize turtles dynamically
+3. Enhance shell patterns with color variations and textures
+4. Optimize collision detection for larger numbers of turtles
