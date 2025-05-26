@@ -2,9 +2,7 @@
 
 ## Overview
 
-TurtlePix is a Java application that uses Object-Oriented Programming principles to model and render turtles with detailed anatomical parts. The project demonstrates modular design by composing turtles from components like body, head, legs, tail, and facial features.
-
-Key highlights include dynamic scaling, efficient management of multiple turtle instances, and collision detection to avoid overlapping drawings, all rendered smoothly using Java Swing and AWT.
+TurtlePix is a Java application designed to showcase Object-Oriented Programming by constructing and displaying turtles from individual parts such as the body, head, legs, tail, and facial features. The project emphasizes modular design, allowing flexible scaling and smooth rendering of multiple turtles. It also includes collision detection to ensure turtles are displayed without overlapping, using Java Swing and AWT for graphical output.
 
 ---
 
